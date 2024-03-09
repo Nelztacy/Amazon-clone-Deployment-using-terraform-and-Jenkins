@@ -9,7 +9,7 @@ before do anything →
 open your terminal and make a separate folder for amazon →mkdir amazon
 cd amazon
 clone the github repo
-git clone https://github.com/Aakibgithuber/Amazon-app-Deployment-using-terraform-and-jenkins.git
+git clone https://github.com/Nelztacy/Amazon-clone-Deployment-using-terraform-and-Jenkins.git
 
 Completion steps →
 Step 1 → Setup Terraform and configure aws on your local machine
