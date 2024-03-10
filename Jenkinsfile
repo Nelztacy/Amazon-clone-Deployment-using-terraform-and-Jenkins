@@ -60,11 +60,11 @@ pipeline{
                 }
             }
         }
-        stage("TRIVY"){
-            steps{
-                sh "trivy image nelzone/amazon-clone:latest > trivyimage.txt" 
-            }
-        }
+        //stage("TRIVY"){
+        //    steps{
+        //        sh "trivy image nelzone/amazon-clone:latest > trivyimage.txt" 
+        //    }
+        //}
         stage('Deploy to container'){
             steps{
                 sh 'docker run -d --name amazon-clone -p 3000:3000 nelzone/amazon-clone:latest'
